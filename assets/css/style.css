@@ -1,0 +1,371 @@
+@import url ('https://fonts.googleapis.com/css2? family = Raleway: wght @ 100; 200; 300; 400; 500; 600 & display = swap');
+
+
+body {
+
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+
+}
+
+.container{
+    height: 100%;
+    padding: 225px 0 170px 0;
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.header_inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 140px;
+}
+.heading{
+    max-width: 720px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.header_logo{
+    font-family: 'Raleway';
+    color: #ff8b38;
+}
+.HeadButton{
+    font:400 16px Exo;
+    color: white;
+    padding: 16px 50px ;
+    margin: 0 auto;
+    border: 0;
+    background: #ff6d6d;
+    border-radius: 3px;
+}
+
+.HeadButton:hover{
+    color: #ff6d6d;
+    background: rgba(255, 255, 255, .6);
+    cursor: pointer;
+    border: 1px solid #ff6d6d;
+}
+.headText{
+    font:400 14px Exo;
+    color: #282828;
+    text-align: center;
+}
+.desing_content{
+    max-width: 740px;
+    margin: 0 50px;
+}
+.new_design{
+    margin: 0;
+    width: 100%;
+    max-height: 724px;
+    background: url('../content/blok_2.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.desing_All{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -38px;
+
+
+}
+.desing_subtitle{
+    font:500 16px Exo;
+    color: #ff6d6d;
+    margin: 0;
+    max-width: 580px;
+}
+.desing_heading{
+    font:500 40px Exo;
+    color: #060606;
+    margin: 15px 0 50px 0;
+    max-width: 580px;
+    letter-spacing: 1px;
+}
+
+span{
+    font:500 40px Exo;
+    color: #ff6d6d;
+
+}
+.desing_text{
+    font:500 16px Exo;
+    color: #282828;
+    margin: 0;
+    max-width: 580px;
+}
+.desing_img{
+
+}
+
+.new_features{
+    background-image: url('../content/fon/blok_3.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+
+
+}
+.features_All{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.feature_head{
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.features_some{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.some_item{
+    padding: 80px 45px;
+
+}
+
+.item_img{
+    padding: 0 165px;
+}
+
+.item_subtitle{
+    font:500 22px Exo;
+    color: #282828;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.item_content{
+    font:400 16px Exo;
+    color: #282828;
+    text-align: center;
+    padding: 0 33px;
+    margin: 0 auto;
+}
+
+.new_resposive{
+    background-image: url("../content/blok_4_fon.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    max-height: 550px;
+
+}
+
+.resposive{
+    padding: 95px 0 100px 0;
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.resposive_content{
+    margin-top: 40px;
+ }
+
+.new_staff{
+    background-image: url('../content/fon/blok_5.jpg');
+    background-size:cover;
+    max-height: 650px;
+    padding: 100px 0 85px 0;
+}
+.staff{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.staff_img{
+    background-image: url("../content/person/person.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+}
+.staff_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.staff_heading{
+   font: 500 22px Exo;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.staff_subtitle{
+    font: 400 16px Exo;
+    color: #ff6d6d;
+    margin-top: 0;
+}
+
+.staff_text{
+    font: 400 16px Exo;
+    font-style: italic;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+    padding: 0 50px;
+    text-align: center;
+    line-height: 26px;
+    opacity: 66%;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    max-width: 1440px;
+}
+
+.logo{
+    margin: 0 60px;
+    opacity: 66%;
+}
+
+.feat_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 820px;
+    padding: 100px 0 0 0;
+    margin: 0 auto;
+}
+
+.feat_subtitle{
+    font:500 16px Exo;
+    color: #ff6d6d;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.feat_heading{
+    font:500 40px Exo;
+    color: #282828;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+.feat_text{
+    font:400 16px Exo;
+    color: #282828;
+    opacity: 66%;
+    text-align: center;
+    margin: 0 10px 100px 10px;
+    letter-spacing: 1.2px;
+    line-height: 26px;
+
+}
+.feat_img{
+    margin: 0 auto;
+}
+
+.form_blok{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 90px 0 80px 0;
+    background: #323969;
+}
+
+.form_head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    text-align: center;
+}
+
+.form_subtitle{
+    font: 500 16px Exo;
+    color: #ff6d6d;
+    margin:  0 0 20px 0;
+}
+
+.form_heading{
+    font: 500 40px Exo;
+    color: white;
+    margin: 0 0 90px 0;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    text-align: center;
+}
+
+
+.input_form{
+    font: 400 16px Exo;
+    color: white;
+    background: rgba(255, 255, 255, .5);
+    padding: 15px 30px;
+    margin: 0 16px;
+    border: 1px solid #ffffff;
+    max-width: 260px;
+    border-radius: 3px;
+ }
+.input_form::placeholder{
+    font: 400 16px Exo;
+    color: white;
+  }
+.input_form:hover{
+    cursor: pointer;
+    border: 1px solid #ff6d6d;
+}
+.btn_form{
+    font: 400 16px Exo;
+    color: white;
+    background: #ff6d6d;
+    padding: 15px 90px;
+    border:1px solid #ff6d6d;
+    border-radius: 3px;
+    max-width: 260px;
+}
+.btn_form:hover{
+    background: rgba(255, 255, 255, .5);
+    border:1px solid #ffffff;
+    color: white;
+    cursor: pointer;
+}
+
+.form_text{
+    font: 400 16px Exo;
+    color: white;
+    opacity: 50%;
+    text-align: center;
+    margin-top: 50px ;
+}
